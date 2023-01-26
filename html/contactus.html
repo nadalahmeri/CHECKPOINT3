@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css    ">
+    <title>Register</title>
+</head>
+<body>
+    <header class="entete">  
+        <div>
+             <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="experience.html">Experience</a>
+                <a href="qualifications.html">Qualifications</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contactus.html">Register</a>
+                </nav>
+
+            </div>    
+    
+    </header>
+
+<div class="contenu1" style="width: 25rem;">
+    
+        
+        <form><h3 id="cc"> Form to register : </h3>  <br/>
+            <label>First Name</label>
+            <input type="text" name="FirstName" placeholder="Brian" required><br/>
+            <label>Last Name</label>
+            <input type="text" name="LastName" placeholder="Adams"required> <br/>
+            <label>Date of birth</label>
+            <input type="date" name="DateOfBirth" placeholder="28/11/1988"><br/>
+            
+            <br>
+            
+            <label>Pseudo Name</label>
+            <input type="text" name="PseudoName" placeholder="Brian.adams" required><br/>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Use alphabets, MAj and min, numbers and symbols" required><br/>
+           
+            <br>
+
+            <label>genre</label>
+            <input type="radio" value="female" name="genre" checked>Female  
+            <input type="radio" value="male" name="genre">Male <br/>
+
+
+          
+          <label for="email">Enter your email adress :</label>
+
+          <input type="email" id="email" size="30" required>
+
+
+            <br/>
+
+            <label for="followerType">You are a: </label>
+            <select name="followerType">
+                <option value="volvo"> Fan</option>
+                <option value="volvo"> Student</option>
+                <option value="volvo"> Teacher</option>
+                <option value="volvo"> Instructor</option>          
+              </select>
+              <br/>
+              <br/>
+
+              <input type="checkbox" name="newsletter"> Receive emails of newsletters <br/><br/>
+
+
+
+              <button type="button" > Submit </button><br/><br/>
+      </form>
+
+</div>
+<br/>
+    <footer class="contenu" style="color: darkgrey;" style="font-size: small;">
+        <div>Copyright 2023 LAHMERI NADA</div>  
+        <div> DownTown GoMyCode HackerSpace </div>
+        <div> Checkpoint HTML & CSS </div>
+    </footer>
+</body>
+</html>

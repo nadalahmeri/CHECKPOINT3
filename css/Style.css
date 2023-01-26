@@ -1,0 +1,76 @@
+.entete {
+    position: sticky !important;
+    background-color: rgb(250, 246, 249) !important;
+   
+    height: 50px !important;
+    width: 1250px !important;
+    top: 10px !important;
+    border-style: outset !important;
+    border-color:rgb(238, 161, 221) !important ;
+    margin-left: 5px !important;
+   
+}
+.navbar {
+    /* float: right; */
+   display: flex !important;
+   justify-content: flex-end !important;
+   /* margin-top: 10px !important; */
+   margin-right: 5px !important;
+  
+   gap: 20px !important;
+   
+   
+}
+.navbar a{
+    text-decoration: none !important;
+    color: black !important
+    
+}
+
+#cc{
+    align: center
+}
+
+.navbar a:hover{
+   color: pink !important;
+    
+}
+
+.corp h2 {
+    padding: 41px !important;
+text-align: center;
+font-size: 40px;
+}
+
+#cc {
+    justify-content: space-between;
+    display: flex;
+    
+}
+h3 {
+    margin-left: 70px;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+   align-content: stretch;
+    margin-top: 20px;
+    background-color: rgb(250, 246, 249);
+ 
+
+}
+
+.contenu1 {
+ 
+    /*  */
+    background-color: rgb(250, 246, 249);
+    
+    margin: auto;
+    margin-top: 70px;
+    width: 50%;
+    border: 1px solid rgb(237, 190, 222);
+    padding: 10px;
+}
+
+
